@@ -14,8 +14,8 @@ html,body{
 }
 
 body{
-    display: flex;
     background: radial-gradient(#e4e7f0, #ddddde);
+    display: flex;
     flex-direction: column;
 }
 
@@ -57,16 +57,18 @@ h1{
     background-color: rgb(176, 175, 175);
 }
 
-.wsf_lf_m{
-    flex:1;
-}
-
 .logo{
     cursor: pointer;
     user-select: none;
     font-family: 'Bebas Neue', sans-serif;
     font-size: 45px;
 }
+
+.wsf_lf_m{
+    flex:1;
+    margin-top: 15vh;
+}
+
 .wsf_lf_s1{
     display: flex;
     background: url(./public/bg.jpg);
@@ -74,6 +76,7 @@ h1{
     background-size: cover;
     width: 100%;
     height: 80vh;
+    padding-bottom: 7vw;
 }
 .text{
     margin: auto auto auto 7vw;
@@ -86,9 +89,11 @@ h1{
     border-top: 2px solid grey;
     display: grid;
     grid-template-rows: 30% 10% 60%;
-    max-height: 300px;
-    min-height: 200px;
+    max-height: 400px;
+    min-height: 300px;
     gap: 15px;
+    padding-top: 4vw;
+    padding-bottom: 4vw;
     width: 100%;
     background: radial-gradient(#e4e7f0,#ddddde);
     text-align: center;
@@ -146,9 +151,10 @@ h1{
 .wsf_lf_s3 {
     display: grid;
     grid-template-columns: 30% 70%;
+    padding-bottom: 7vw;
     width: 100%;
     max-height: 700px;
-    min-height: 400px;
+    min-height: 450px;
     background: radial-gradient(#e4e7f0, #ddddde);
     text-align: center;
     overflow: hidden;
@@ -215,7 +221,7 @@ h1{
     grid-template-columns: 33% 33% 33%;
     overflow: hidden;
     box-sizing: border-box;
-    margin-bottom: 4vw;
+    margin-bottom: 7vw;
     gap: 10px;
 }
 .box {
@@ -340,6 +346,12 @@ h1{
 
 
 @media(max-width:936px){
+    .wsf_lf_s1{
+        align-items: center;
+        padding: 10px;
+        justify-content: center;
+    }
+
     .wsf_lf_s4 {
         grid-template-columns: 1fr;
         grid-template-rows: 33% 33% 33%;
