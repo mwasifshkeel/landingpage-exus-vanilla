@@ -381,7 +381,7 @@ h1{
 
 @media(max-width:600px){
     .wsf_lf_s3 {
-        margin-top: 30px;
+        padding-top: 30px;
         grid-template-rows: 30% 70%;
         grid-template-columns: 1fr;
         justify-items: center;
