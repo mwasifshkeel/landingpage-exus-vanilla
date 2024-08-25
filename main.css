@@ -356,6 +356,7 @@ h1{
         vertical-align: middle;
     }
     .text{
+        margin:0;
         text-align: center;
         background: #e5e8f173;
         letter-spacing: 4px;
